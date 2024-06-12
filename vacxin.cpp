@@ -300,9 +300,13 @@ void deleteVac(Vaccine **vaccine, int *numofVac, int index)
     *vaccine = (Vaccine *)realloc(*vaccine, (*numofVac - 1) * sizeof(Vaccine));
     *numofVac --;
 }
+<<<<<<< HEAD
 
 void changeVac(Vaccine **vaccine, int index, Vaccine *updateVac)
 {
     inputVac(updateVac);
     (*vaccine)[index] = *updateVac;
 }
+=======
+// hiii test from hịp
+>>>>>>> 3c77a949b5a1fb0c8ca89b53eb2cf7a4c6402ce1
